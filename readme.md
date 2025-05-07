@@ -8,7 +8,7 @@ This repository contains Javascript DOM Project with some basic examples. In thi
 
 1. Clone this project
 ```
-git clode https://github.com/yusufbahtiarr/fgo24-dom-basic.git
+git clone https://github.com/yusufbahtiarr/fgo24-dom-basic.git
 ```
 2. Enter the project directory
 ```
