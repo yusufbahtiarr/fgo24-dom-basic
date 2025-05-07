@@ -7,29 +7,10 @@
 </head>
 <body>
   <h2 id="title">Konversi Suhu</h2>
-  <p>Hasil Konversi suhu 70 C ke F adalah </p>
-  <p>Hasil Konversi suhu 70 C ke K adalah </p>
-  <p>Hasil Konversi suhu 70 C ke R adalah </p>
-  <script>
-    function celciusToFahrenheit (num) {
-      return 9/5 * num + 32
-    }
-    function celciusToKelvin (num) {
-      return 273 + num
-    }
-    function celciusToReamur (num) {
-      return 4/5 * num
-    }
-
-    const h2a = document.getElementById('title')
-    const p1 = document.getElementsByTagName('p').item(0)
-    p1.textContent = p1.textContent + celciusToFahrenheit(70)
-    const p2 = document.getElementsByTagName('p').item(1)
-    p2.textContent = p2.textContent + celciusToKelvin(70)
-    const p3 = document.getElementsByTagName('p').item(2)
-    p3.textContent = p3.textContent + celciusToReamur(70)
-    p1.appendChild(p2)
-
-  </script>
+  <p>Hasil Konversi suhu 70 C ke F adalah <span></span></p>
+  <p>Hasil Konversi suhu 70 C ke K adalah <span></span></p>
+  <p>Hasil Konversi suhu 70 C ke R adalah <span></span></p>
+  
+  <script src="/assets/scripts/scripts.js"></script>
 </body>
 </html>
